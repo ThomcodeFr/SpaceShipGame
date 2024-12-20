@@ -1,0 +1,32 @@
+# Ignore les fichiers .DS_Store générés par macOS
+.DS_Store
+
+# Ignore les répertoires de compilation et de build
+/build/
+/bin/
+/obj/
+
+# Ignore les fichiers de dépendances Python (si applicable)
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Ignore les fichiers de configuration d'environnement Python (si applicable)
+.env
+.venv
+
+# Ignore les fichiers générés par IDE (par exemple, VSCode)
+.vscode/
+
+# Ignore les fichiers de logs
+*.log
+
+# Ignore les fichiers de configuration d'IDE (par exemple, IntelliJ IDEA)
+.idea/
+
+# Ignore les fichiers de cache de dépendances (Node.js, si applicable)
+node_modules/
+
+# Ignore les fichiers de caches de système de paquet
+*.swp
