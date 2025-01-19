@@ -9,9 +9,6 @@ display_surface =  pygame.display.set_mode((WINDOW_WITH,WINDOW_HEIGHT))
 pygame.display.set_caption('Space shooter')
 running = True
 
-# rect 
-plain_rect = pygame.FRect(pos, size)
-
 # Importing images
 player_surface = pygame.image.load(join('images', 'player.png')).convert_alpha()
 player_rect = player_surface.get_frect(center = (WINDOW_WITH / 2, WINDOW_HEIGHT / 2))
